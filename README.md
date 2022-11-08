@@ -57,14 +57,17 @@ else:
     else:
         print(c, b, a)
 Hasil Run
+![4](https://user-images.githubusercontent.com/116045324/200519552-b1709006-1b63-4fcd-a104-2221135fdc37.PNG)
+
 
 
 Lab 3 Perulangan
 Latihan 1
-Buat program dengan perulangan bertingkat (nested) for yang menghasilkan output sebagai berikut : 200156779-cc2eb0c1-293c-4089-84d8-7dde04482340
+Buat program dengan perulangan bertingkat (nested) for yang menghasilkan output sebagai berikut :
 Langkah - langkah :
 
 Buat programnya terlebih dahulu seperti gambar di bawah ini
+![lab3 py latihan1](https://user-images.githubusercontent.com/116045324/200520452-74326b77-af0a-4809-984c-a0159e696c55.PNG)
 
 
 
@@ -74,7 +77,8 @@ for i in range(0,10):
     for j in range(1,10):
         print(i+j,end="\t")
 Hasil Run
-Screenshot (127)
+![hasilrunlab3latihan1](https://user-images.githubusercontent.com/116045324/200520597-5769bd94-f4cf-4f7b-bc04-7b82a7ae8223.PNG)
+
 
 Latihan 2
 Tampilkan n bilangan acak yang lebih kecil dari 0.5.
@@ -86,7 +90,7 @@ Anda bisa menggunakan kombinasi while dan for untuk menyelesaikannya
 Langkah - langkah :
 
 Buatlah programnya terlebih dahulu seperti gambar dibawah ini
-Screenshot (128)
+![lab3 py latihan2](https://user-images.githubusercontent.com/116045324/200520886-50161ce9-7cb8-4059-b746-0706ac1436f6.PNG)
 
 from random import random
 
@@ -97,7 +101,8 @@ for i in range(n):
     bil = random() % 0.5
     print("Perulangan ke : ", bil)
 Hasil Run
-Screenshot (129)
+![hasilrunlab3latihan2](https://user-images.githubusercontent.com/116045324/200521026-8c907426-594b-4fca-94e1-1b99fa04a3f2.PNG)
+
 
 MODUL PRAKTIKUM 2 DAN 3
 Labpy2 dan Labpy3
@@ -106,10 +111,11 @@ Buat program sederhana dengan input tiga buah bilangan, dari ketiga bilangan ter
 Langkah - langkah :
 
 Buatlah flowchart dari mencari angka terbesar dari 3 bilangan seperti gambar dibawah ini
-200159462-6b7e6bcb-8a43-4d48-a4c4-5bf8bda85a42
+![image](https://user-images.githubusercontent.com/116045324/200526475-7eaacb57-4c18-4af6-bc1f-e01605c6c90c.png)
+
 
 Buatlah program codenya seperti gambar dibawah ini
-Screenshot (130)
+![5](https://user-images.githubusercontent.com/116045324/200522497-3740e197-c79b-4798-a892-8dec1d08226f.PNG)
 
 a, b, c = (
     int(input('Masukkan nilai a: ')),
@@ -123,13 +129,15 @@ elif b > a and b > c:
 else:
     print('C yang terbesar')
 Hasil Run
-Screenshot (131)
+![6](https://user-images.githubusercontent.com/116045324/200522937-4d700c63-4ff5-455b-a67e-941f613797a6.PNG)
+
 
 Labpy3
 Latihan 1
 Flowchart latihan 1
+![image](https://user-images.githubusercontent.com/116045324/200526864-a34e40e2-0ea1-4fbd-9e82-cde0cb131166.png)
 
-200159707-ccb1abdb-be69-4849-96c8-6c02c439d199
+
 
 Algoritma latihan 1
 Menampilkan n bilangan acak yang lebih kecil dari 0,5, nilai n diisi pada saat runtime.
@@ -149,7 +157,8 @@ Selesai
 Langkah - langkah :
 
 Buat program codenya seperti gambar dibawah ini
-Screenshot (132)
+![7](https://user-images.githubusercontent.com/116045324/200523208-c3820859-650b-4d6b-859a-cd5c12ee2746.PNG)
+
 
 print("bilangan acak yang lebih kecil dari o.5")
 import random
@@ -163,12 +172,14 @@ for c in range(n):
 
 print("selesai")
 Hasil Run
-Screenshot (133)
+![8](https://user-images.githubusercontent.com/116045324/200523372-1984262d-7619-4b9b-9a26-3899377ce3ff.PNG)
+
 
 Latihan 2
 Flowchart latihan 2
+![image](https://user-images.githubusercontent.com/116045324/200527044-7a88c7b5-044a-4e47-9cbc-8d23cc3dcb1d.png)
 
-200159970-42dd1c12-2af8-416d-b808-822ed3c3c7fc
+
 
 Algoritma latihan 2
 Membuat program untuk menampilkan bilangan terbesar dari n buah data yang diinputkan.Masukkan angka 0 untuk berhenti
@@ -196,7 +207,8 @@ Selesai
 Langkah - langkah :
 
 Buatlah program code seperti gambar dibawah ini
-Screenshot (134)
+![9](https://user-images.githubusercontent.com/116045324/200524127-5558074c-5aed-41e8-9e23-fe5548916935.PNG)
+
 
 print("menampilkan bilangan, berhenti ketika bilangan 0, dan menampilkan bilangan terbesar")
 
@@ -210,12 +222,14 @@ while True:
 print("bilangan terbesarnya adalah = ", max)
 print("======selesai======")
 Hasil Run
-Screenshot (135)
+![10](https://user-images.githubusercontent.com/116045324/200524618-834e842d-d0b2-49ae-bc10-3705709eaf91.PNG)
+
 
 Program 1
 Flowchart program 1
+![image](https://user-images.githubusercontent.com/116045324/200527219-63ac7348-c657-4ecd-ab06-9c2138c106b9.png)
 
-200160200-2f3db728-7d3d-48c0-b21a-b8d3bf11438b
+
 
 Algoritma dari program 1
 Mulai
@@ -255,7 +269,8 @@ Selesai
 Langkah - langkah :
 
 Buatlah program codenya seperti gambar dibawah ini
-Screenshot (136)
+![11](https://user-images.githubusercontent.com/116045324/200524991-5a13f833-e886-4674-a20e-4264afbec5a2.PNG)
+
 
 x = 100000000
 sum = 0
@@ -270,6 +285,7 @@ for i in lb:
 
     print("  TOTAL LABA YANG DIDAPAT ADALAH :", sum)
 Hasil Run
-Screenshot (137)
+![12](https://user-images.githubusercontent.com/116045324/200525198-806bd8a2-ba7f-41d1-93b7-d2943fca5653.PNG)
+
 
 Sekian, Terima kasih
